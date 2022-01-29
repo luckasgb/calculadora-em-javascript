@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #000EB6 0%, #000650 100%);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    margin: 65px 0 3px 0;
+}
+
+h2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #999999;
+}
+
+.calculadora{
+    background-color: #999999;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 45px;
+    box-shadow: 5px 4px 16px -1px rgba(0,0,0,0.85);
+}
+
+button{
+    background-color: rgb(53, 53, 56);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(232, 247, 253);
+    border: none;
+    margin: 1px;
+}
+
+button:hover{
+    background-color: rgb(14, 14, 37);
+}
+
+#resultado{
+    width: 208px;
+    background-color: white;
+    height: 30px;
+    margin: 3px;
+    color: black;
+    text-align: right;
+    font-size: 25px;
+    padding: 3px;
+}
